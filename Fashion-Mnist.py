@@ -28,7 +28,7 @@ def show_images(imgs, num_rows, num_cols, titles=None, scale=1.5):
     return axes
 
 def get_dataloader_workers():
-    return 4
+    return 2
 
 def load_data_fashion_mnist(batch_size , resize = None):
     trans = [transforms.ToTensor()]
